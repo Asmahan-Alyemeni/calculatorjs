@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    
+    <link rel="stylesheet" href="main.css" />
+    
+
+
+    
+</head>
+<body>
+    
+<input  id="scr" type="number" readonly />
+<br>
+<input  id="sc" type="number"  readonly />
+<br>
+<button  id="0"  onclick="GetNum(0)"> 0</button>
+<button id="1"   onclick="GetNum(1)"> 1</button>
+<button id="2"   onclick="GetNum(2)" > 2</button>
+<br>
+<button id="3"  onclick="GetNum(3)" > 3</button>
+<button id="4"  onclick="GetNum(4)"> 4</button>
+<button id="5"  onclick="GetNum(5)"> 5</button>
+<br>
+<button id="6"  onclick="GetNum(6)"> 6</button>
+<button id="7"  onclick="GetNum(7)"> 7</button>
+<button id="8"  onclick="GetNum(8)"> 8</button>
+<br>
+<button id="9"  onclick="GetNum(9)" > 9</button>
+<button id="mo" onclick= "Getoper( 'mo' )" >%</button>
+<button   onclick="window.location.reload()">C</button>
+
+<br>
+<button  id="m" onclick="Getoper('m')" >-</button>
+<button id="p"  onclick="Getoper( 'p' )">+</button>
+<button id="mu" onclick="Getoper('mu')"> *</button>
+<br>
+<button id="d"    onclick="Getoper('d')"> /</button>
+<button onclick="Getoper('t')"   > ^</button>
+<button id="eq"   onclick="calc()" > = </button>
+ 
+<script src="mainjs.js"></script>
+    
+
+
+</body>
+</html>
